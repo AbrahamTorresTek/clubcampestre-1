@@ -1,0 +1,232 @@
+/* ---------- ANIMACIONES ---------- */
+
+/* Decoracion */
+.decoracion-fondo-top{
+	background-image: url(../imagenes/decoracion-fondo-top.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+  }
+
+/* Menu Baja Automatico */
+.dropdown:hover .dropdown-menu {
+	display: block;
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+  }
+  
+  .dropdown-menu {
+	display: none;
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+	margin-top: 0;
+  }
+  
+  .dropdown-menu > li > a {
+	padding: 10px 20px;
+  }
+
+
+/* Sube over */
+.sube{
+	top: 0px;
+	background-color: transparent ;
+}
+.sube:hover{
+	transform: translate(0, -50px);
+	transition-duration: 1s ;
+	transition-timing-function: ease-in-out;
+	/*background-color: #FFF ;*/
+}
+.visible{
+	opacity: 0.1;
+
+}
+.visible:hover{
+	opacity: 1;
+	transition-duration: 0.5 ;
+	transition-timing-function: ease-in-out;
+}
+
+
+
+
+/* ---------- FUENTES ---------- */
+/* --- General--- */
+.tipo{
+	font-family: 'fuente', sans-serif;
+	font-size: 13px;
+	letter-spacing:;      /* para separar entgre letras */
+	word-spacing: 3pt;        /* para separacion entre palabras */  
+	line-height: 14pt
+	}		
+	@font-face {
+	font-family: 'fuente';
+	src: url("../fuente.TTF") format('truetype');
+	}
+	
+.tipo-2{
+	font-family: 'titulos', sans-serif;
+	}		
+	@font-face {
+	font-family: 'titulos';
+	src: url("../fuente-2.TTF") format('truetype');
+	}	
+/* --- Texto--- */
+.mayusculas{
+	text-transform: uppercase;
+}
+/* ---------- MARGENES ---------- */
+.sinpadding [class*="col-"] {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.margen {
+	padding: 10px;
+}
+.margen-5 {
+	padding: 5px;
+}
+.margen-10 {
+	padding: 10px;
+}
+.margen-20 {
+	padding: 20px;
+}
+
+
+
+/* ---------- IMAGENES ---------- */
+/* Cover */
+.imagen-cover-50{
+	object-fit: cover;
+	width: 100%;
+	height: 50px;
+	}	
+.imagen-cover-100{
+	object-fit: cover;
+	width: 100%;
+	height: 100px;
+	}		
+.imagen-cover-200{
+	object-fit:cover;
+	width: 100%;
+	height: 198px;
+	}	
+.imagen-cover-250{
+	object-fit:cover;
+	width: 100%;
+	height: 250px;
+	}					
+.imagen-cover-300{
+	object-fit:cover;
+	width: 100%;
+	height: 300px;
+	}
+.imagen-cover-350{
+	object-fit:cover;
+	width: 100%;
+	height: 350px;
+	}		
+.imagen-cover-400{
+	object-fit:cover;
+	width: 100%;
+	height: 400px;
+	}			
+.imagen-cover-500{
+	object-fit:cover;
+	width: 100%;
+	height: 500px;
+	}		
+	/* Contain */
+.imagen-contain-250{
+	object-fit:contain;
+	width: 100%;
+	height: 250px;
+	padding:15px;
+	}	
+.imagen-contain-200{
+	object-fit:contain;
+	width: 96% ;
+	height: 198px;
+	}
+	.noinventario {
+		background-image: url(../imagenes/noinventario.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+	  opacity:75%;
+	} 
+
+
+/* ---------- TAMAÑOS ---------- */
+/* Altos */	
+.alto-50{
+	height: 50px;
+}	
+.alto-100{
+	height: 100px;
+}
+.alto-150{
+	height: 150px;
+}
+.alto-200{
+	height: 200px;
+}
+.alto-250{
+	height: 250px;
+}
+.alto-300{
+	height: 300px;
+}
+.alto-350{
+	height: 350px;
+}
+.alto-400{
+	height: 400px;
+}
+.alto-450{
+	height: 450px;
+}
+.alto-500{
+	height: 500px;
+}
+/* Ancho */	
+.ancho-50{
+	width: 50px;
+}	
+.ancho-100{
+	width: 100px;
+}	
+
+/* ---------- GENERALES ---------- */
+.grises{
+	filter: url('#grayscale'); /* Versión SVG para IE10, Chrome 17, FF3.5, Safari 5.2 and Opera 11.6 */
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+	filter: Gray(); /* IE4-8 and 9 */
+	} 
+.logo-flotante {
+	max-width: 400px;
+	position: absolute;
+	margin: auto;
+	top: -5px;
+	left: 0px;
+	width: 100%;
+	z-index: 1000;
+	} 
+	/* Movil */
+@media (max-width: 768px) {				
+	.ocultar-movil{
+		position: relative;
+		display:none;
+		}	
+}		
+
+@media (min-width: 768px) {			
+	.mostrar-movil{
+		position: relative;
+		display:none;
+		}
+	}	
