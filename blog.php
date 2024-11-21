@@ -24,7 +24,7 @@
     </div> 
     <div class="decoracion-fondo-top" style="position:absolute; bottom:0px; left:0px; height:200px; width:100%; z-index:2">
       <div class="text-center" style="padding-top:140px;">
-        <h1 class="tipo-2 color-blanco sombra-texto"><?php echo $rowsec['uno'];?></h1>
+
       </div> 
     </div> 
 

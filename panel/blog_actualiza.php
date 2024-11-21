@@ -24,7 +24,7 @@
 
 <!----- CONTENIDO ---->
 
-<?
+<?php
 include("../conectarse.php");
 
     $clave = $_GET['cve2'];
