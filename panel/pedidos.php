@@ -64,7 +64,7 @@
                 <form action="pedidos.php" method="get">
                 
                   <div class=" col-xs-12 col-sm-12 text-left">
-                    <h4 class="tipo colornegro">Buscar Folio</h4><?phpinclude '../conectarse.php'; ?>
+                    <h4 class="tipo colornegro">Buscar Folio</h4><?php include '../conectarse.php'; ?>
                   </div>
 
                   <div class=" col-xs-12 col-sm-7 text-left">    

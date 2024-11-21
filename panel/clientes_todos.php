@@ -55,7 +55,7 @@
         <div class=" col-xs-12 col-sm-8 text-left">
 
 <!--- BUSCADOR ---->
-              <?phpinclude 'config.php';?>
+              <?php include 'config.php';?>
                 <form action="clientes_todos.php" method="get">
                   <div class="row">
                       <div class=" col-xs-12 col-sm-2 text-left">
@@ -76,7 +76,7 @@
       <div class="row">
         
 
-              <?phpif ($_GET['buscador']) {
+              <?php if ($_GET['buscador']) {
               $buscar = $_GET['palabra'];
               if (empty($buscar))
               { echo "No se ha ingresado ninguna palabra"; }

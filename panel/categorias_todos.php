@@ -55,7 +55,7 @@
         <div class=" col-xs-12 col-sm-12 text-left">
 
 
-              <?phpinclude '../conectarse.php';?>
+              <?php include '../conectarse.php';?>
                 <form action="categorias_todos.php" method="get">
                   <div class="row">
                       <div class=" col-xs-12 col-sm-2 text-left">
@@ -76,7 +76,7 @@
       
         
 
-              <?phpif ($_GET['buscador']) {
+              <?php if ($_GET['buscador']) {
               $buscar = $_GET['palabra'];
               if (empty($buscar))
               { echo "No se ha ingresado ninguna palabra"; }

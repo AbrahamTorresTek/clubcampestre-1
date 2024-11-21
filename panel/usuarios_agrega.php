@@ -1,4 +1,4 @@
-<?phpinclude("../conectarse.php");
+<?php include("../conectarse.php");
 
 	$usuario = $_POST['usuario'];
 	$pass = $_POST['pass'];
