@@ -25,7 +25,7 @@
 <!----- CONTENIDO ---->
 
 
-<?
+<?php
 				include("../conectarse.php");
 						$estado = $_POST['estado'];
                         $titulo = $_POST['tipo'];

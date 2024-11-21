@@ -55,14 +55,14 @@
         <div class=" col-xs-12 col-sm-12 text-left">
 
 
-              <? include '../conectarse.php';?>
+              <?php include '../conectarse.php';?>
                 <form action="secciones_todos.php" method="get">
                   <div class="row">
                       <div class=" col-xs-12 col-sm-2 text-left">
                         <h4 class="tipo">Buscar Categoria</h4>
                       </div> 
                       <div class=" col-xs-12 col-sm-2 text-left">    
-                        <input type="text" name="palabra" class="form-control" value="<?  echo ($_GET["palabra"]);  ?>"  /><p></p>
+                        <input type="text" name="palabra" class="form-control" value="<?php  echo ($_GET["palabra"]);  ?>"  /><p></p>
                       </div>  
                               <div class=" col-xs-12 col-sm-2 text-left">
                         <input type="submit" name="buscador" class="btn btn-block btn-default" value="Buscar"  />
@@ -76,7 +76,7 @@
       
         
 
-              <? if ($_GET['buscador']) {
+              <?php if ($_GET['buscador']) {
               $buscar = $_GET['palabra'];
               if (empty($buscar))
               { echo "No se ha ingresado ninguna palabra"; }

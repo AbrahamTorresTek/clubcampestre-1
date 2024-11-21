@@ -47,7 +47,7 @@
 					?>
 					<h2>Imagen Ingresada Correctamente</h2>
                     <div class=" col-xs-3 text-left">
-                        <a href="imgx_index.php?cve=<? echo $clave ?>">
+                        <a href="imgx_index.php?cve=<?phpecho $clave ?>">
                         <button class="btn btn-block btn-default"> Regresar a Propiedades </button>
                         </a>
                     </div>

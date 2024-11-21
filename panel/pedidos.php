@@ -64,11 +64,11 @@
                 <form action="pedidos.php" method="get">
                 
                   <div class=" col-xs-12 col-sm-12 text-left">
-                    <h4 class="tipo colornegro">Buscar Folio</h4><? include '../conectarse.php'; ?>
+                    <h4 class="tipo colornegro">Buscar Folio</h4><?phpinclude '../conectarse.php'; ?>
                   </div>
 
                   <div class=" col-xs-12 col-sm-7 text-left">    
-                    <input type="text" name="palabra" class="form-control" value="<?  echo ($_GET["palabra"]);  ?>"  />
+                    <input type="text" name="palabra" class="form-control" value="<?php echo ($_GET["palabra"]);  ?>"  />
                   </div>  
         
                   <div class=" col-xs-12 col-sm-5 text-left">
@@ -103,7 +103,7 @@
 
 
 <!--- BUSCADOR ---->
-<? 
+<?php
 if ($_GET['buscador'])
 {
 $buscar = $_GET['palabra'];

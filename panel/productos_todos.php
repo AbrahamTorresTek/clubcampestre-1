@@ -61,14 +61,14 @@
         <div class=" col-xs-12 col-sm-12 text-left">
 
           <!--- BUSCADOR ---->
-          <? include 'config.php'; ?>
+          <?phpinclude 'config.php'; ?>
           <form action="productos_todos.php" method="get">
             <div class="row">
               <div class=" col-xs-12 col-sm-3 text-left">
                 <h4 class="tipo">Buscar Nombre</h4>
               </div>
               <div class=" col-xs-12 col-sm-3 text-left">
-                <input type="text" name="palabra" class="form-control" value="<? echo ($_GET["palabra"]);  ?>" />
+                <input type="text" name="palabra" class="form-control" value="<?phpecho ($_GET["palabra"]);  ?>" />
                 <p></p>
               </div>
               <div class=" col-xs-12 col-sm-3 text-left">
@@ -83,7 +83,7 @@
           <div class="row">
 
 
-            <? if ($_GET['buscador']) {
+            <?phpif ($_GET['buscador']) {
               $buscar = $_GET['palabra'];
               if (empty($buscar)) {
                 echo "No se ha ingresado ninguna palabra";

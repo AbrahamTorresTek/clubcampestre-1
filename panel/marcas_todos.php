@@ -55,14 +55,14 @@
         <div class=" col-xs-12 col-sm-8 text-left">
 
 <!--- BUSCADOR ---->
-              <? include 'config.php';?>
+              <?phpinclude 'config.php';?>
                 <form action="marcas_todos.php" method="get">
                   <div class="row">
                       <div class=" col-xs-12 col-sm-2 text-left">
                         <h4 class="tipo">Buscar Marca</h4>
                       </div> 
                       <div class=" col-xs-12 col-sm-2 text-left">    
-                        <input type="text" name="palabra" class="form-control" value="<?  echo ($_GET["palabra"]);  ?>"  /><p></p>
+                        <input type="text" name="palabra" class="form-control" value="<?php echo ($_GET["palabra"]);  ?>"  /><p></p>
                       </div>  
                               <div class=" col-xs-12 col-sm-2 text-left">
                         <input type="submit" name="buscador" class="btn btn-block btn-default" value="Buscar"  />
@@ -76,7 +76,7 @@
       <div class="row">
         
 
-              <? if ($_GET['buscador']) {
+              <?phpif ($_GET['buscador']) {
               $buscar = $_GET['palabra'];
               if (empty($buscar))
               { echo "No se ha ingresado ninguna palabra"; }

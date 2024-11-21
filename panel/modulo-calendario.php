@@ -88,7 +88,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                      <button type="submit" class="btn btn-default btn-block" value="Enviar"> Agregar </button>
                     </form> 
                     <?php } else { ?>
-                        <? while($row=mysqli_fetch_assoc($re)) { ?>
+                        <?phpwhile($row=mysqli_fetch_assoc($re)) { ?>
                         <form action="calendario_actualiza.php?cve=<?php echo $row['id'];?>&cve2=<?php echo $clave;?>" method="post" enctype="multipart/form-data">
                             <input type="text" name="uno"  class="form-control text-center" value="<?php echo $row['uno'];?> ">  
                             <input type="hidden" name="dos"  value="<?php echo $row['dos'];?>">
@@ -153,7 +153,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                      <button type="submit" class="btn btn-default btn-block" value="Enviar"> Agregar </button>
                     </form> 
                     <?php } else { ?>
-                        <? while($row=mysqli_fetch_assoc($re)) { ?>
+                        <?phpwhile($row=mysqli_fetch_assoc($re)) { ?>
                         <form action="calendario_actualiza.php?cve=<?php echo $row['id'];?>&cve2=<?php echo $clave;?>" method="post" enctype="multipart/form-data">
                             <input type="text" name="uno"  class="form-control text-center" value="<?php echo $row['uno'];?> ">  
                             <input type="hidden" name="dos"  value="<?php echo $row['dos'];?>">
@@ -218,7 +218,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                      <button type="submit" class="btn btn-default btn-block" value="Enviar"> Agregar </button>
                     </form> 
                     <?php } else { ?>
-                        <? while($row=mysqli_fetch_assoc($re)) { ?>
+                        <?phpwhile($row=mysqli_fetch_assoc($re)) { ?>
                         <form action="calendario_actualiza.php?cve=<?php echo $row['id'];?>&cve2=<?php echo $clave;?>" method="post" enctype="multipart/form-data">
                             <input type="text" name="uno"  class="form-control text-center" value="<?php echo $row['uno'];?> ">  
                             <input type="hidden" name="dos"  value="<?php echo $row['dos'];?>">
@@ -283,7 +283,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                      <button type="submit" class="btn btn-default btn-block" value="Enviar"> Agregar </button>
                     </form> 
                     <?php } else { ?>
-                        <? while($row=mysqli_fetch_assoc($re)) { ?>
+                        <?phpwhile($row=mysqli_fetch_assoc($re)) { ?>
                         <form action="calendario_actualiza.php?cve=<?php echo $row['id'];?>&cve2=<?php echo $clave;?>" method="post" enctype="multipart/form-data">
                             <input type="text" name="uno"  class="form-control text-center" value="<?php echo $row['uno'];?> ">  
                             <input type="hidden" name="dos"  value="<?php echo $row['dos'];?>">
@@ -347,7 +347,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                      <button type="submit" class="btn btn-default btn-block" value="Enviar"> Agregar </button>
                     </form> 
                     <?php } else { ?>
-                        <? while($row=mysqli_fetch_assoc($re)) { ?>
+                        <?phpwhile($row=mysqli_fetch_assoc($re)) { ?>
                         <form action="calendario_actualiza.php?cve=<?php echo $row['id'];?>&cve2=<?php echo $clave;?>" method="post" enctype="multipart/form-data">
                             <input type="text" name="uno"  class="form-control text-center" value="<?php echo $row['uno'];?> ">  
                             <input type="hidden" name="dos"  value="<?php echo $row['dos'];?>">
@@ -412,7 +412,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                      <button type="submit" class="btn btn-default btn-block" value="Enviar"> Agregar </button>
                     </form> 
                     <?php } else { ?>
-                        <? while($row=mysqli_fetch_assoc($re)) { ?>
+                        <?phpwhile($row=mysqli_fetch_assoc($re)) { ?>
                         <form action="calendario_actualiza.php?cve=<?php echo $row['id'];?>&cve2=<?php echo $clave;?>" method="post" enctype="multipart/form-data">
                             <input type="text" name="uno"  class="form-control text-center" value="<?php echo $row['uno'];?> ">  
                             <input type="hidden" name="dos"  value="<?php echo $row['dos'];?>">
@@ -476,7 +476,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                      <button type="submit" class="btn btn-default btn-block" value="Enviar"> Agregar </button>
                     </form> 
                     <?php } else { ?>
-                        <? while($row=mysqli_fetch_assoc($re)) { ?>
+                        <?phpwhile($row=mysqli_fetch_assoc($re)) { ?>
                         <form action="calendario_actualiza.php?cve=<?php echo $row['id'];?>&cve2=<?php echo $clave;?>" method="post" enctype="multipart/form-data">
                             <input type="text" name="uno"  class="form-control text-center" value="<?php echo $row['uno'];?> ">  
                             <input type="hidden" name="dos"  value="<?php echo $row['dos'];?>">

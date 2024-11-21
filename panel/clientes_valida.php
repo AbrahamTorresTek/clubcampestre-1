@@ -24,7 +24,7 @@
 
 <!----- CONTENIDO ---->
 
-<? 
+<?php
 include("../conectarse.php");
 
 	$uno = $_POST['uno'];
