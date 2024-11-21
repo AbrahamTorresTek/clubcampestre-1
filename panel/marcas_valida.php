@@ -82,7 +82,7 @@ include("../conectarse.php");
 					window.location = "marcas_todos.php";
 	
 					</script>
-					<?
+					<?php
 				
 					}
 					else
