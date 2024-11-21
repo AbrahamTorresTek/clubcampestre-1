@@ -35,7 +35,7 @@
                         <div class="card card-body">
                         <div class="contorno-color-3" style="padding:5px">
                             <?php 
-                                $catsec = $rowcatt['dieciocho'];
+                                 
                                 $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='casa-club' AND trece ='espanol' order by id");
                                 while ($row = mysqli_fetch_assoc($re)) { ?>
                                     <div class="" style="padding:5px;">
@@ -62,7 +62,7 @@
                 <div class="card card-body">
                 <div class="contorno-color-3" style="padding:5px">
                     <?php 
-                    $catsec = $rowcatt['dieciocho'];
+                     
                     $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='golf' AND trece ='espanol' order by id");
                     while ($row = mysqli_fetch_assoc($re)) { ?>
                             <div class="" style="padding:5px;">
@@ -85,7 +85,7 @@
                 <div class="card card-body">
                 <div class="contorno-color-3" style="padding:5px">
                     <?php 
-                    $catsec = $rowcatt['dieciocho'];
+                     
                     $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='restaurants' AND trece ='espanol' order by id");
                     while ($row = mysqli_fetch_assoc($re)) { ?>
                             <div class="" style="padding:5px;">
@@ -108,7 +108,7 @@
                 <div class="card card-body">
                 <div class="contorno-color-3" style="padding:5px">
                     <?php 
-                    $catsec = $rowcatt['dieciocho'];
+                     
                     $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='sociales' AND trece ='espanol' order by id");
                     while ($row = mysqli_fetch_assoc($re)) { ?>
                             <div class="" style="padding:5px;">
@@ -197,7 +197,7 @@
                     <div class="dropdown-menu" style="">
                     <ul class="dropdown-menu sombra">
                         <?php 
-                        $catsec = $rowcatt['dieciocho'];
+                         
                         $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='casa-club' AND trece ='espanol' order by id");
                         while ($row = mysqli_fetch_assoc($re)) { ?>
                             <li class="tipo-2"> 
@@ -224,7 +224,7 @@
                     <div class="dropdown-menu" style="">
                     <ul class="dropdown-menu sombra">
                         <?php 
-                        $catsec = $rowcatt['dieciocho'];
+                         
                         $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='golf' AND trece ='espanol' order by id");
                         while ($row = mysqli_fetch_assoc($re)) { ?>
                             <li class="tipo-2"> 
@@ -251,7 +251,7 @@
                     <div class="dropdown-menu" style="">
                     <ul class="dropdown-menu sombra">
                         <?php 
-                        $catsec = $rowcatt['dieciocho'];
+                         
                         $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='restaurants' AND trece ='espanol' order by id");
                         while ($row = mysqli_fetch_assoc($re)) { ?>
                             <li class="tipo-2"> 
@@ -278,7 +278,7 @@
                     <div class="dropdown-menu">
                     <ul class="dropdown-menu sombra">
                         <?php 
-                        $catsec = $rowcatt['dieciocho'];
+                         
                         $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='sociales' AND trece ='espanol' order by id");
                         while ($row = mysqli_fetch_assoc($re)) { ?>
                             <li class="tipo-2"> 

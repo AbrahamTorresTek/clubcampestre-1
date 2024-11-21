@@ -31,7 +31,7 @@ background-repeat: no-repeat; ">
             <div class=" col-xs-12  col-sm-2  text-center">
                   <h4 class="tipo-2 color "> GOLF</h4>
                   <p style="height:10px;"></p>
-                  <?php $catsec = $rowcatt['dieciocho'];
+                  <?php  
                   $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='golf' AND trece ='espanol' order by id");
                   while ($row = mysqli_fetch_assoc($re)) { ?>
                        <a href="<?php echo $row['seis']; ?>" class="link">
@@ -43,7 +43,7 @@ background-repeat: no-repeat; ">
             <div class=" col-xs-12  col-sm-2  text-center">
                   <h4 class="tipo-2 color ">CASA CLUB</h4>
                   <p style="height:10px;"></p>
-                  <?php $catsec = $rowcatt['dieciocho'];
+                  <?php  
                   $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='casa-club' AND trece ='espanol' order by id");
                   while ($row = mysqli_fetch_assoc($re)) { ?>
                         <a href="<?php echo $row['seis']; ?>" class="link">
@@ -55,7 +55,7 @@ background-repeat: no-repeat; ">
             <div class=" col-xs-12  col-sm-2 text-center">
                   <h4 class="tipo-2 color "> RESTAURANTS </h4>
                   <p style="height:10px;"></p>
-                  <?php $catsec = $rowcatt['dieciocho'];
+                  <?php  
                   $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='restaurants' AND trece ='espanol' order by id");
                   while ($row = mysqli_fetch_assoc($re)) { ?>
                        <a href="<?php echo $row['seis']; ?>" class="link">
@@ -67,7 +67,7 @@ background-repeat: no-repeat; ">
             <div class=" col-xs-12  col-sm-2 text-center">
                   <h4 class="tipo-2 color "> SOCIALES </h4>
                   <p style="height:10px;"></p>
-                  <?php $catsec = $rowcatt['dieciocho'];
+                  <?php  
                   $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE dos ='activo' AND cuatro ='sociales' AND trece ='espanol' order by id");
                   while ($row = mysqli_fetch_assoc($re)) { ?>
                         <a href="<?php echo $row['seis']; ?>" class="link">
