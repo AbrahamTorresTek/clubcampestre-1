@@ -85,7 +85,7 @@
 
       </div>
       </div>
-      <? } ?> 
+      <?php } ?> 
   <!--- INFORMACION --->
   <?php } ?>
 

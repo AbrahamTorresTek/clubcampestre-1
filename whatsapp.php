@@ -8,6 +8,6 @@
                 &nbsp; Envíanos un mensaje  
     </div>
 </a>
-<? } ?> 
+<?php } ?> 
 </div>
 <!----- WHATS FLOTANTE ---->

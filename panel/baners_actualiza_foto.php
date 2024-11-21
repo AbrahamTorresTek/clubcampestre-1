@@ -66,7 +66,7 @@ $insersion = mysqli_query($conexion , "update banners set id='$clave' , estado='
                             echo "<br>";
                             ?>
                             
-                            <? } ?>
+                            <?php } ?>
 
 <a href="baners_todos.php">
 <button type="button" class="btn btn-default">Ver Baners</button> 

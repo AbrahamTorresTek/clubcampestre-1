@@ -54,7 +54,7 @@
             </td></tr></table>    
         </div>
 
-        <? } ?>
+        <?php } ?>
 
         <!--- MOVIL --->
         <div class="mostrar-movil" style="padding:30px;">  
@@ -70,7 +70,7 @@
               <div style="padding:1px 5px 0px 10px">  
                   <p class="text-center tipo"><?php echo $rowdes['descripcion'];?></p>
               </div>
-              <? } ?>
+              <?php } ?>
           </div> 
         </div> 
 
@@ -111,7 +111,7 @@
     </div>
     </div>
 
-    <? } ?>
+    <?php } ?>
 
   </div>
   </div>

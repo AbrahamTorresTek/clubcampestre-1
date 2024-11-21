@@ -116,7 +116,7 @@
                                                       $recat = mysqli_query($conexion, "SELECT * FROM categorias WHERE diez='principal'");
                                                       while ($rowcat = mysqli_fetch_assoc($recat)) { ?>
                                                       <option value="<?php echo $rowcat['dieciocho']; ?>" class="form-control"> <?php echo $rowcat['uno']; ?> </option>
-                                                      <? } ?>
+                                                      <?php } ?>
                                     </select>
                               </div>
                               <div class=" col-xs-12 col-sm-3 text-left">

@@ -38,9 +38,9 @@ $rownews = mysqli_fetch_array($renews);?>
     </div>
     </div>
     
-    <? } ?>
+    <?php } ?>
 
 </div>  
 </div>  
 </div>  
-<? } ?>
+<?php } ?>

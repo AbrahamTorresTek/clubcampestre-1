@@ -45,7 +45,7 @@ while($rowinfo=mysqli_fetch_assoc($reinfo)) { ?>
         </div>
       </div>
       </div>
-<? } ?>      
+<?php } ?>      
 <!--- MODULO 1 --->
 
 <!--- MODULO 2 --->
@@ -80,7 +80,7 @@ while($rowinfo=mysqli_fetch_assoc($reinfo)) { ?>
         </div>
       </div>
       </div>
-<? } ?>      
+<?php } ?>      
 <!--- MODULO 2 --->
 
 <!--- MODULO 3 --->
@@ -115,7 +115,7 @@ while($rowinfo=mysqli_fetch_assoc($reinfo)) { ?>
         </div>
       </div>
       </div>
-<? } ?>      
+<?php } ?>      
 <!--- MODULO 3 --->
 
 <!--- MODULO 4 --->
@@ -150,7 +150,7 @@ while($rowinfo=mysqli_fetch_assoc($reinfo)) { ?>
         </div>
       </div>
       </div>
-<? } ?>      
+<?php } ?>      
 <!--- MODULO 4 --->
 
 
@@ -180,7 +180,7 @@ while($rowinfo=mysqli_fetch_assoc($reinfo)) { ?>
 
       </div>
       </div>
-<? } ?>    
+<?php } ?>    
 
 
-<? } ?>
+<?php } ?>

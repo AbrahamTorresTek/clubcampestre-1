@@ -86,7 +86,7 @@ include("../conectarse.php");
                             echo "<br>";
                             ?>
                             
-                            <? } ?>
+                            <?php } ?>
 
                             <div class="col-xs-12 col-sm-12 text-center">
 <a href="productos_todos.php#<?php echo $_GET['cve2'];?>">

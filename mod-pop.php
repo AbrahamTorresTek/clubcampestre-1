@@ -21,7 +21,7 @@ if ($numero <= 0 ) { ?>
             $re = mysqli_query($conexion,"SELECT * FROM modulos WHERE seccion ='$idsec' AND modulo='pop'  AND tipo='escritorio' ");
             while($row=mysqli_fetch_assoc($re)) { ?>
                 <img src="modulos/<?php echo $row['f1']; ?>" id="un-poco-zoom" class="" style="object-fit:contain; width:100%; height:400px;  border-radius:0px;">
-            <? } ?>
+            <?php } ?>
       </div>
       <!--- MOVIL --->
       <div class="mostrar-movil">
@@ -29,12 +29,12 @@ if ($numero <= 0 ) { ?>
             $rem = mysqli_query($conexion,"SELECT * FROM modulos WHERE seccion ='$idsec' AND modulo='pop'  AND tipo='celular' ");
             while($rowm=mysqli_fetch_assoc($rem)) { ?>
                 <img src="modulos/<?php echo $rowm['f1']; ?>" id="un-poco-zoom" class="" style="object-fit:contain; width:100%; height:400px;  border-radius:0px;">
-            <? } ?>
+            <?php } ?>
       </div>
 
     </div>
   </div>
 </div>
-<? } ?>
+<?php } ?>
 
 

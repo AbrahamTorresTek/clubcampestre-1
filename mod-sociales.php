@@ -60,7 +60,7 @@ if ($orgullol == "promociones") { ?>
     </div>
     </div>
     
-    <? } ?>
+    <?php } ?>
 
     <div class="col-xs-12" style="height:50px;"></div> 
 

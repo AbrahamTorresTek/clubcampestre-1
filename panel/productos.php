@@ -98,7 +98,7 @@
                                           <?php $re = mysqli_query($conexion,"SELECT * FROM marcas WHERE dos='activo'  ORDER BY uno ASC");
                                                 while($row = mysqli_fetch_assoc($re)) { ?>         
                                                 <option value="<?php echo $row['uno'];?>" class="form-control"><?php echo $row['uno'];?></option>
-                                          <? } ?> 
+                                          <?php } ?> 
                                     </select>
                               </div>
 
@@ -115,7 +115,7 @@
                                           <?php $re = mysqli_query($conexion,"SELECT * FROM categorias WHERE dos='activo' AND diez='secundario' ORDER BY cuatro ASC");
                                           while($row = mysqli_fetch_assoc($re)) { ?>                    
                                                 <option value="<?php echo $row['dieciocho'];?>" class="form-control"> <?php echo $row['uno'];?> </option>
-                                          <? } ?> 
+                                          <?php } ?> 
                                     </select>
                               </div>
 
@@ -137,7 +137,7 @@
                                                 while($row = mysqli_fetch_assoc($re)) { ?>         
                                                       
                                                 <option value="<?php echo $row['id'];?>" class="form-control"><?php echo $row['uno'];?></option>
-                                          <? } ?> 
+                                          <?php } ?> 
                                     </select>
                               </div>
 

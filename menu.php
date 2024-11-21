@@ -18,13 +18,13 @@
                 <?php $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE cuatro ='menu_izquierdo' AND cinco='editable' AND dos ='activo' AND trece ='espanol' order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <div class="" style="padding:5px;"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></div>
-                <? } ?>
+                <?php } ?>
 
                 <!------- Categoria Izquierda ------>
                 <?php $re = mysqli_query($conexion, "SELECT * FROM categorias WHERE cuatro ='menu_izquierdo' AND dos ='activo' AND trece ='espanol'  order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <div class="" style="padding:5px;"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></div>
-                <? } ?>
+                <?php } ?>
 
                 <!--- CASA CLUB --->
                 <div style="padding:10px;">
@@ -43,7 +43,7 @@
                                             <?php echo $row['uno']; ?>
                                         </a>
                                     </div>
-                            <? } ?>
+                            <?php } ?>
                         </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                                     <?php echo $row['uno']; ?>
                                 </a>
                             </div>
-                    <? } ?>
+                    <?php } ?>
                 </div>
                 </div>
                 </div>
@@ -93,7 +93,7 @@
                                     <?php echo $row['uno']; ?>
                                 </a>
                             </div>
-                    <? } ?>
+                    <?php } ?>
                 </div>
                 </div>
                 </div>
@@ -116,7 +116,7 @@
                                     <?php echo $row['uno']; ?>
                                 </a>
                             </div>
-                    <? } ?>
+                    <?php } ?>
                 </div>
                 </div>
                 </div>
@@ -126,13 +126,13 @@
                 <?php $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE cuatro ='menu_derecho' AND cinco='editable' AND dos ='activo' AND trece ='espanol' order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <div class="" style="padding:5px;"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></div>
-                <? } ?>
+                <?php } ?>
 
                 <!------- Categoria Derecha ------>
                 <?php $re = mysqli_query($conexion, "SELECT * FROM categorias WHERE cuatro ='menu_derecho' AND dos ='activo' AND trece ='espanol' order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <div class="" style="padding:5px;"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></div>
-                <? } ?>
+                <?php } ?>
 
                 <div class="" style="padding:5px;"><a href="contacto.php" target="">CONTACTO</a></div>
 
@@ -179,13 +179,13 @@
                 <?php $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE cuatro ='menu_izquierdo' AND cinco='editable' AND dos ='activo' AND trece ='espanol' order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <li class="tipo-2"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></li>
-                <? } ?>
+                <?php } ?>
                 
                 <!------- Categoria Izquierda ------>
                 <?php $re = mysqli_query($conexion, "SELECT * FROM categorias WHERE cuatro ='menu_izquierdo' AND dos ='activo' AND trece ='espanol'  order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <li class="tipo-2"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></li>
-                <? } ?>
+                <?php } ?>
                 
 
 
@@ -205,7 +205,7 @@
                                     <?php echo $row['uno']; ?>
                                 </a>
                             </li>
-                        <? } ?>
+                        <?php } ?>
                         <!--- NOVE
                         <li class="tipo-2" style="border-top:solid 1px WhiteSmoke;"> 
                             <a href="casa-club.php" style="padding:10px;">
@@ -232,7 +232,7 @@
                                     <?php echo $row['uno']; ?>
                                 </a>
                             </li>
-                        <? } ?>
+                        <?php } ?>
                         <!--- NOVE
                         <li class="tipo-2" style="border-top:solid 1px WhiteSmoke;"> 
                             <a href="casa-club.php" style="padding:10px;">
@@ -259,7 +259,7 @@
                                     <?php echo $row['uno']; ?>
                                 </a>
                             </li>
-                        <? } ?>
+                        <?php } ?>
                         <!--- NOVE
                         <li class="tipo-2" style="border-top:solid 1px WhiteSmoke;"> 
                             <a href="casa-club.php" style="padding:10px;">
@@ -286,7 +286,7 @@
                                     <?php echo $row['uno']; ?>
                                 </a>
                             </li>
-                        <? } ?>
+                        <?php } ?>
                         <!--- NOVE
                         <li class="tipo-2" style="border-top:solid 1px WhiteSmoke;"> 
                             <a href="casa-club.php" style="padding:10px;">
@@ -302,13 +302,13 @@
                 <?php $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE cuatro ='menu_derecho' AND cinco='editable' AND dos ='activo' AND trece ='espanol'  order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <li class="tipo-2"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></li>
-                <? } ?>
+                <?php } ?>
 
                 <!------- Categoria Derecha ------>
                 <?php $re = mysqli_query($conexion, "SELECT * FROM categorias WHERE cuatro ='menu_derecho' AND dos ='activo' AND trece ='espanol'  order by id");
                 while ($row = mysqli_fetch_assoc($re)) { ?>
                 <li class="tipo-2"><a href="<?php echo $row['seis']; ?>"><?php echo $row['uno']; ?></a></li>
-                <? } ?>
+                <?php } ?>
 
                 <li class="tipo-2"><a href="contacto.php" target="">CONTACTO</a></li>
 

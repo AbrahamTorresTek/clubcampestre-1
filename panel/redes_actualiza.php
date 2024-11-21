@@ -62,7 +62,7 @@
                             echo "<br>";
                             ?>
                             
-                            <? } ?>
+                            <?php } ?>
 
                             <div class="col-xs-12 col-sm-12 text-left">
 <a href="redes_todas.php">

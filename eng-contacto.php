@@ -151,7 +151,7 @@ while($row=mysqli_fetch_assoc($re)) { ?>
   </div>
   </div>
 
-<? } ?> 
+<?php } ?> 
 <!--- INFORMACION --->
 
 

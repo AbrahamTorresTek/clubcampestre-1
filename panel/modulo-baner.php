@@ -167,7 +167,7 @@
       </div>   
       </div> 
       <div class="col-xs-12"><p></p></div>
-      <? } ?>
+      <?php } ?>
 
 </div>
 </div>     

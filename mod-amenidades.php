@@ -44,7 +44,7 @@ background-repeat: repeat;
     </div>
     </div>
     
-    <? } ?>
+    <?php } ?>
 
     <div class="col-xs-12" style="background-image: url(imagenes/sombra-back.png);
     background-position:bottom center;
@@ -55,5 +55,5 @@ background-repeat: repeat;
 </div>  
 </div>  
 </div>  
-<? } ?>
+<?php } ?>
 

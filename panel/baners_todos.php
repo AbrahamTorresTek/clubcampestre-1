@@ -83,7 +83,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
       </a>
   </td>
 </tr>
-<? } ?>  
+<?php } ?>  
 
 <!----- MOVIL ---->   
 <tr>
@@ -114,7 +114,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
       </a>
   </td>
 </tr>
-<? } ?>  
+<?php } ?>  
 
 </table>
 <!----- SECUENDARIO ---->   

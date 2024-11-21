@@ -24,7 +24,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Monday <spam class="color-negro"> <?php echo $row['uno'];?> </spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
            <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='lunes' ORDER BY seis ASC ");
            $numlun = mysqli_num_rows($re);
            if ($numlun <= 0 ) { ?>
@@ -44,8 +44,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-          <? } ?> 
-          <? } ?> 
+          <?php } ?> 
+          <?php } ?> 
         </td>
 
 
@@ -59,7 +59,7 @@ if ($numero <= 0 ) { ?>
               <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
               <h4 class="tipo-2"> Tuesday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
               </div> 
-            <? } ?> 
+            <?php } ?> 
             <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='martes' ORDER BY seis ASC ");
             $num = mysqli_num_rows($re);
             if ($num <= 0 ) { ?>
@@ -78,8 +78,8 @@ if ($numero <= 0 ) { ?>
                   <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
               </div> 
               </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
         </td>
 
 
@@ -89,7 +89,7 @@ if ($numero <= 0 ) { ?>
               <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
               <h4 class="tipo-2"> Wednesday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
               </div> 
-            <? } ?> 
+            <?php } ?> 
             <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='miercoles' ORDER BY seis ASC ");
             $num = mysqli_num_rows($re);
             if ($num <= 0 ) { ?>
@@ -108,8 +108,8 @@ if ($numero <= 0 ) { ?>
                   <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
               </div> 
               </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
         </td>
 
         
@@ -119,7 +119,7 @@ if ($numero <= 0 ) { ?>
               <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
               <h4 class="tipo-2"> Thursday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
               </div> 
-            <? } ?> 
+            <?php } ?> 
             <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='jueves' ORDER BY seis ASC ");
             $num = mysqli_num_rows($re);
             if ($num <= 0 ) { ?>
@@ -138,8 +138,8 @@ if ($numero <= 0 ) { ?>
                   <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
               </div> 
               </div> 
-            <? } ?> 
-            <? } ?>
+            <?php } ?> 
+            <?php } ?>
         </td>
 
 
@@ -149,7 +149,7 @@ if ($numero <= 0 ) { ?>
               <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
               <h4 class="tipo-2"> Friday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
               </div> 
-            <? } ?> 
+            <?php } ?> 
             <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='viernes' ORDER BY seis ASC ");
             $num = mysqli_num_rows($re);
             if ($num <= 0 ) { ?>
@@ -168,8 +168,8 @@ if ($numero <= 0 ) { ?>
                   <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
               </div> 
               </div> 
-            <? } ?> 
-            <? } ?>
+            <?php } ?> 
+            <?php } ?>
         </td>
 
 
@@ -181,7 +181,7 @@ if ($numero <= 0 ) { ?>
               <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
               <h4 class="tipo-2"> Saturday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
               </div> 
-            <? } ?> 
+            <?php } ?> 
             <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='sabado' ORDER BY seis ASC ");
             $num = mysqli_num_rows($re);
             if ($num <= 0 ) { ?>
@@ -200,8 +200,8 @@ if ($numero <= 0 ) { ?>
                   <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
               </div> 
               </div> 
-            <? } ?> 
-            <? } ?>
+            <?php } ?> 
+            <?php } ?>
         </td>
 
 
@@ -211,7 +211,7 @@ if ($numero <= 0 ) { ?>
               <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
               <h4 class="tipo-2"> Sunday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
               </div> 
-            <? } ?> 
+            <?php } ?> 
             <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='domingo' ORDER BY seis ASC ");
             $num = mysqli_num_rows($re);
             if ($num <= 0 ) { ?>
@@ -230,8 +230,8 @@ if ($numero <= 0 ) { ?>
                   <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
               </div> 
               </div> 
-            <? } ?> 
-            <? } ?>
+            <?php } ?> 
+            <?php } ?>
 
         </td>
       </tr>
@@ -250,7 +250,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Monday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
           <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='lunes' ORDER BY seis ASC ");
            while($row=mysqli_fetch_assoc($re)) { ?>
             <div style="width:100%; padding:10px;">
@@ -262,8 +262,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
 
     <!--- martes ---->
     <?php $renum = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='martes' ");
@@ -273,7 +273,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Tuesday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
           <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='martes' ORDER BY seis ASC ");
            while($row=mysqli_fetch_assoc($re)) { ?>
             <div style="width:100%; padding:10px;">
@@ -285,8 +285,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
     <!--- miercoles ---->
     <?php $renum = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='miercoles' ");
     $numero = mysqli_num_rows($renum);
@@ -295,7 +295,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Wednesday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
           <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='miercoles' ORDER BY seis ASC ");
            while($row=mysqli_fetch_assoc($re)) { ?>
             <div style="width:100%; padding:10px;">
@@ -307,8 +307,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
     <!--- jueves ---->
     <?php $renum = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='jueves' ");
     $numero = mysqli_num_rows($renum);
@@ -317,7 +317,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Thursday  <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
           <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='jueves' ORDER BY seis ASC ");
            while($row=mysqli_fetch_assoc($re)) { ?>
             <div style="width:100%; padding:10px;">
@@ -329,8 +329,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
     <!--- viernes ---->
     <?php $renum = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='viernes' ");
     $numero = mysqli_num_rows($renum);
@@ -339,7 +339,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Friday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
           <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='viernes' ORDER BY seis ASC ");
            while($row=mysqli_fetch_assoc($re)) { ?>
             <div style="width:100%; padding:10px;">
@@ -351,8 +351,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
     <!--- sabado ---->
     <?php $renum = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='sabado' ");
     $numero = mysqli_num_rows($renum);
@@ -361,7 +361,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Saturday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
           <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='sabado' ORDER BY seis ASC ");
            while($row=mysqli_fetch_assoc($re)) { ?>
             <div style="width:100%; padding:10px;">
@@ -373,8 +373,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
     <!--- domingo ---->
     <?php $renum = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='domingo' ");
     $numero = mysqli_num_rows($renum);
@@ -383,7 +383,7 @@ if ($numero <= 0 ) { ?>
             <div class="text-center" style="width:100%; border:solid 0px silver; border-radius:3px; padding:10px;">
                 <h4 class="tipo-2"> Sunday <spam class="color-negro"><?php echo $row['uno'];?></spam> </h4>
             </div> 
-          <? } ?> 
+          <?php } ?> 
           <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='domingo' ORDER BY seis ASC ");
            while($row=mysqli_fetch_assoc($re)) { ?>
             <div style="width:100%; padding:10px;">
@@ -395,8 +395,8 @@ if ($numero <= 0 ) { ?>
                 <p class="tipo color-2"> <?php echo $row['cuatro'];?> </p>
             </div> 
             </div> 
-            <? } ?> 
-            <? } ?> 
+            <?php } ?> 
+            <?php } ?> 
 
 
   </div>  
@@ -406,4 +406,4 @@ if ($numero <= 0 ) { ?>
 </div>  
 </div>  
 </div>  
-<? } ?> 
+<?php } ?> 

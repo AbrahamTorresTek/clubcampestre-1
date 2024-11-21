@@ -5,7 +5,7 @@ $clave = $_GET['cve'];
 $re = mysqli_query($conexion,"SELECT * FROM secciones WHERE id='$clave'");
 while($row = mysqli_fetch_assoc($re)) { ?>
 <?php $seccion = $row['dieciocho'];?>  
-<? } ?> 
+<?php } ?> 
     <!--- CALENDARIO ---->
     <div class="col-xs-12 col-sm-12 text-left" id="calendario" style="border: solid 2px orange; padding:0px 20px 20px 20px; background-color:WhiteSmoke;"> 
     <div class="row" style="padding:2px;"> 
@@ -39,17 +39,17 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                         <?php $rese = mysqli_query($conexion,"SELECT * FROM secciones WHERE dos ='activo' AND trece ='espanol'");
                         while($rowse=mysqli_fetch_assoc($rese)) { ?>
                         <option value="<?php echo $rowse['dieciocho'];?>" class="form-control"><?php echo $rowse['dieciocho'];?> </option>
-                        <? } ?> 
+                        <?php } ?> 
                         <option>- - - Ingles - - - </option>
                         <?php $rese = mysqli_query($conexion,"SELECT * FROM secciones WHERE dos ='activo' AND trece ='ingles'");
                         while($rowse=mysqli_fetch_assoc($rese)) { ?>
                         <option value="<?php echo $rowse['dieciocho'];?>" class="form-control"> <?php echo $rowse['uno'];?> </option>
-                        <? } ?> 
+                        <?php } ?> 
                         <option style="color:silver;">- - - Japones - - -</option>
                         <?php $rese = mysqli_query($conexion,"SELECT * FROM secciones WHERE dos ='activo' AND trece ='japones'");
                         while($rowse=mysqli_fetch_assoc($rese)) { ?>
                         <option value="<?php echo $rowse['dieciocho'];?>" class="form-control"> <?php echo $rowse['uno'];?> </option>
-                        <? } ?> 
+                        <?php } ?> 
                     </select>
                 </div>
                 <div class="col-xs-12 col-sm-3 text-left">
@@ -100,8 +100,8 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                             <p stile="height:2px;"></p>
                         <button type="submit" class="btn btn-default btn-block" value="Enviar"> Actualizar</button>
                         </form>    
-                        <? } ?> 
-                    <? } ?> 
+                        <?php } ?> 
+                    <?php } ?> 
                     <p><br></p>
 
                     <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='lunes' ORDER BY seis ASC ");
@@ -130,7 +130,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                     </form>                     
                     </td></tr></table>
                     <hr>
-                    <? } ?> 
+                    <?php } ?> 
                     </div> 
                     </td>
 
@@ -165,8 +165,8 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                             <p stile="height:2px;"></p>
                         <button type="submit" class="btn btn-default btn-block" value="Enviar"> Actualizar</button>
                         </form>    
-                        <? } ?> 
-                    <? } ?> 
+                        <?php } ?> 
+                    <?php } ?> 
                     <p><br></p>
 
                     <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='martes' ORDER BY seis ASC ");
@@ -195,7 +195,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                     </form>                     
                     </td></tr></table>
                     <hr>
-                    <? } ?> 
+                    <?php } ?> 
                     </div> 
                     </td>
 
@@ -230,8 +230,8 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                             <p stile="height:2px;"></p>
                         <button type="submit" class="btn btn-default btn-block" value="Enviar"> Actualizar</button>
                         </form>    
-                        <? } ?> 
-                    <? } ?> 
+                        <?php } ?> 
+                    <?php } ?> 
                     <p><br></p>
 
                     <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='miercoles' ORDER BY seis ASC ");
@@ -260,7 +260,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                     </form>                     
                     </td></tr></table>
                     <hr>
-                    <? } ?> 
+                    <?php } ?> 
                     </div> 
                     </td>
 
@@ -295,8 +295,8 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                             <p stile="height:2px;"></p>
                         <button type="submit" class="btn btn-default btn-block" value="Enviar"> Actualizar</button>
                         </form>    
-                        <? } ?> 
-                    <? } ?> 
+                        <?php } ?> 
+                    <?php } ?> 
                     <p><br></p>
 
                     <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='jueves' ORDER BY seis ASC ");
@@ -325,7 +325,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                     </form>                     
                     </td></tr></table>
                     <hr>
-                    <? } ?> 
+                    <?php } ?> 
                     </div> 
                     </td>
 
@@ -359,8 +359,8 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                             <p stile="height:2px;"></p>
                         <button type="submit" class="btn btn-default btn-block" value="Enviar"> Actualizar</button>
                         </form>    
-                        <? } ?> 
-                    <? } ?> 
+                        <?php } ?> 
+                    <?php } ?> 
                     <p><br></p>
 
                     <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='viernes' ORDER BY seis ASC ");
@@ -389,7 +389,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                     </form>                     
                     </td></tr></table>
                     <hr>
-                    <? } ?> 
+                    <?php } ?> 
                     </div> 
                     </td>
 
@@ -424,8 +424,8 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                             <p stile="height:2px;"></p>
                         <button type="submit" class="btn btn-default btn-block" value="Enviar"> Actualizar</button>
                         </form>    
-                        <? } ?> 
-                    <? } ?> 
+                        <?php } ?> 
+                    <?php } ?> 
                     <p><br></p>
 
                     <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='sabado' ORDER BY seis ASC ");
@@ -454,7 +454,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                     </form>                     
                     </td></tr></table>
                     <hr>
-                    <? } ?> 
+                    <?php } ?> 
                     </div> 
                     </td>
 
@@ -488,8 +488,8 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                             <p stile="height:2px;"></p>
                         <button type="submit" class="btn btn-default btn-block" value="Enviar"> Actualizar</button>
                         </form>    
-                        <? } ?> 
-                    <? } ?> 
+                        <?php } ?> 
+                    <?php } ?> 
                     <p><br></p>
 
                     <?php $re = mysqli_query($conexion,"SELECT * FROM calendario WHERE tres ='$seccion' AND cinco ='secundario' AND dos ='domingo' ORDER BY seis ASC ");
@@ -518,7 +518,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                     </form>                     
                     </td></tr></table>
                     <hr>
-                    <? } ?> 
+                    <?php } ?> 
                     </div> 
                     </td>
 

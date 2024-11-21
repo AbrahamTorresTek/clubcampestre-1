@@ -32,7 +32,7 @@ background-repeat: repeat; ">
       <p style="height:15px"></p>  
     </div>
   </div> 
-  <? } ?> 
+  <?php } ?> 
 
 </div>   
 </div>

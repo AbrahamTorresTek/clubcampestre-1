@@ -71,7 +71,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
 
 </form>  
 </div>  
-<? } ?>
+<?php } ?>
 
 <!--- IMAGENES --->
 
@@ -226,7 +226,7 @@ while($col = mysqli_fetch_assoc($co)) { ?>
       </div>   
                                     
 </form>  
-<? } ?>   
+<?php } ?>   
 <!----- CONTENIDO ---->
             
                               

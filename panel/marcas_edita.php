@@ -96,7 +96,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                         <?php $re = mysqli_query($conexion,"SELECT * FROM marcas WHERE estado='activo'  ORDER BY marca ASC");
                               while($row = mysqli_fetch_assoc($re)) { ?>         
                               <option value="<?php echo $row['marca'];?>" class="form-control"><?php echo $row['marca'];?></option>
-                        <? } ?> 
+                        <?php } ?> 
                   </select>
             </div>
 
@@ -112,13 +112,13 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                   <select name="seis" id="seis" required class="form-control">
                         <?php $re = mysqli_query($conexion,"SELECT * FROM marcas WHERE id='$clave'"); while($row = mysqli_fetch_assoc($re)) { ?>
                         <option value="<?php echo $row['seis'];?>" selected="selected"><?php echo $row['seis'];?></option>
-                        <? } ?> 
+                        <?php } ?> 
                         <?php $re = mysqli_query($conexion,"SELECT * FROM categorias WHERE dos='activo' AND cuatro='categoria' ORDER BY uno ASC");
                         while($row = mysqli_fetch_assoc($re)) { ?>         
                                     
                         <option value="<?php echo $row['uno'];?>" class="form-control"><?php echo $row['uno'];?></option>
                         
-                        <? } ?> 
+                        <?php } ?> 
                   </select>
             </div>
 
@@ -127,7 +127,7 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                   <select name="siete" id="siete" required class="form-control">
                         <?php $re = mysqli_query($conexion,"SELECT * FROM marcas WHERE id='$clave'"); while($row = mysqli_fetch_assoc($re)) { ?>
                         <option value="<?php echo $row['siete'];?>" selected="selected"><?php echo $row['siete'];?></option>
-                        <? } ?> 
+                        <?php } ?> 
                         <option value="linea" class="form-control">De linea</option>
                         <option value="novedades" class="form-control">Novedades</option>
                         <option value="outlet" class="form-control">Outlet</option>
@@ -139,13 +139,13 @@ while($row = mysqli_fetch_assoc($re)) { ?>
                   <select name="ocho" id="ocho" class="form-control">
                         <?php $re = mysqli_query($conexion,"SELECT * FROM marcas WHERE id='$clave'"); while($row = mysqli_fetch_assoc($re)) { ?>
                         <option value="<?php echo $row['ocho'];?>" selected="selected"><?php echo $row['ocho'];?></option>
-                        <? } ?> 
+                        <?php } ?> 
                         <?php $re = mysqli_query($conexion,"SELECT * FROM coleccion WHERE estado='activo' ORDER BY nombre ASC");
                         while($row = mysqli_fetch_assoc($re)) { ?>         
                                     
                               <option value="<?php echo $row['nombre'];?>" class="form-control"><?php echo $row['nombre'];?></option>
                         
-                              <? } ?> 
+                              <?php } ?> 
                   </select>
             </div>
 
@@ -229,7 +229,7 @@ NO SE VE ---->
                   <input type="text" name="fdos"  class="invisible"  value="<?php echo $row['f2'];?>" >
                   <input type="text" name="ftres"  class="invisible" value="<?php echo $row['f3'];?>" >
             </div>
-<? } ?>
+<?php } ?>
 
             <div class=" col-xs-12">
             </div>
@@ -241,7 +241,7 @@ NO SE VE ---->
             </div> 
     
             
-<? } ?>     
+<?php } ?>     
       </div>
 </div>
 </form>    

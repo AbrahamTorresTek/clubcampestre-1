@@ -136,7 +136,7 @@ NO SE VE ---->
     </div>
 
 </td></tr>
-<? } ?>
+<?php } ?>
 </table>
 <!---CATALOGO ---->
 

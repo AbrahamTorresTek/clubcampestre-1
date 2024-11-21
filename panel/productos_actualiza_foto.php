@@ -75,7 +75,7 @@
                             echo "<br>";
                             ?>
                             
-                            <? } ?>
+                            <?php } ?>
 
 <a href="productos_todos.php">
 <button type="button" class="btn btn-default">Ver Productos</button> 

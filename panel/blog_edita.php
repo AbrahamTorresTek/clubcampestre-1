@@ -140,7 +140,7 @@ NO VE --->
                         <?php $rese = mysqli_query($conexion,"SELECT * FROM secciones WHERE dos='activo'  ORDER BY uno ASC");
                         while($rowse = mysqli_fetch_assoc($rese)) { ?>         
                               <option value="<?php echo $rowse['dieciocho'];?>" class="form-control"><?php echo $rowse['dieciocho'];?></option>
-                        <? } ?>
+                        <?php } ?>
 
                   </select>
             </div>
@@ -176,7 +176,7 @@ NO VE --->
             </div> 
     
             
-<? } ?>     
+<?php } ?>     
       </div>
 </div>
 </form>    

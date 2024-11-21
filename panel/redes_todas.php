@@ -89,7 +89,7 @@
         </div> 
 
     </form>  
-    <? } ?>
+    <?php } ?>
 </div>  
 <!----- CONTENIDO ---->
 

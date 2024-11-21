@@ -75,7 +75,7 @@
                             echo "<br>";
                             ?>
                             
-                            <? } ?>
+                            <?php } ?>
 
                             <div class="col-xs-12 col-sm-12 text-center">
 <a href="informacion.php?cve=1">

@@ -66,7 +66,7 @@ background-repeat: repeat; ">
               <p></p>
     </div>   
 
-    <? } ?>
+    <?php } ?>
 
 </div> 
 </div> 

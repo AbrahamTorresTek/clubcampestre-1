@@ -92,7 +92,7 @@
                                           <?php $re = mysqli_query($conexion,"SELECT * FROM clientes WHERE estado='activo'  ORDER BY marca ASC");
                                                 while($row = mysqli_fetch_assoc($re)) { ?>         
                                                 <option value="<?php echo $row['marca'];?>" class="form-control"><?php echo $row['marca'];?></option>
-                                          <? } ?> 
+                                          <?php } ?> 
                                     </select>
                               </div>
 
@@ -110,7 +110,7 @@
                                                 while($row = mysqli_fetch_assoc($re)) { ?>         
                                                       
                                                 <option value="<?php echo $row['uno'];?>" class="form-control"><?php echo $row['uno'];?></option>
-                                          <? } ?> 
+                                          <?php } ?> 
                                     </select>
                               </div>
 
@@ -130,7 +130,7 @@
                                                 while($row = mysqli_fetch_assoc($re)) { ?>         
                                                       
                                                 <option value="<?php echo $row['nombre'];?>" class="form-control"><?php echo $row['nombre'];?></option>
-                                          <? } ?> 
+                                          <?php } ?> 
                                     </select>
                               </div>
 

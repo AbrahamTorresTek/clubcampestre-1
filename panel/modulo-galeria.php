@@ -114,7 +114,7 @@
         </form>   
         
     </div>
-    <? } ?>
+    <?php } ?>
 
 
     <!--- GALERIA Telefono ---->
@@ -171,7 +171,7 @@
     </form>   
     
 </div>
-<? } ?>
+<?php } ?>
 
 
 

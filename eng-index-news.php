@@ -22,7 +22,7 @@
         </div>
         <hr>
         <p style="height:10px"></p>  
-        <? } ?>
+        <?php } ?>
     </div>
 
     <div class="col-xs-12  col-sm-7 text-center" style="padding:0px;">
@@ -35,7 +35,7 @@
                     <?php $redes = mysqli_query($conexion,"SELECT * FROM blog WHERE dos ='activo' AND tres ='destacado' AND doce ='ingles' order by id DESC");
                     while($rowm=mysqli_fetch_assoc($rem)) { ?>
                     <div data-target="#myCarouselnews" data-slide-to="1">  </div>
-                    <? } ?> 
+                    <?php } ?> 
                 </div> 
                 
 
@@ -50,7 +50,7 @@
                         <img src="blog/<?php echo $rowdes['f1'];?>" style="object-fit: contain; height:500px; width:100%;">
                         </a>
                         </div>
-                    <? } ?> 
+                    <?php } ?> 
                     <?php $redes = mysqli_query($conexion,"SELECT * FROM blog WHERE dos ='activo' AND tres ='destacado' AND doce ='ingles' order by id DESC LIMIT 100 OFFSET 1");
                     while($rowdes=mysqli_fetch_assoc($redes)) { ?>
                         <div class="item">
@@ -58,7 +58,7 @@
                         <img src="blog/<?php echo $rowdes['f1'];?>" loading="lazy" style="object-fit: contain; height:500px; width:100%;">
                         </a>
                         </div>
-                    <? } ?> 
+                    <?php } ?> 
                     <!-- Slides-->
 
                 </div>

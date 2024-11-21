@@ -40,7 +40,7 @@ background-repeat: no-repeat;
              NOVE --->
         </div> 
 
-        <? } ?> 
+        <?php } ?> 
     </div>  
 
 </div>  

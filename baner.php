@@ -7,7 +7,7 @@
                 <?php $re = mysqli_query($conexion,"SELECT * FROM banners WHERE tipo ='principal' AND estado ='activo' ");
             while($row=mysqli_fetch_assoc($re)) { ?>
             <div data-target="#myCarousel" data-slide-to="1">  </div>
-            <? } ?> 
+            <?php } ?> 
         </div> 
 
         <!-- Indicators -->
@@ -21,7 +21,7 @@
                 <img src="baner/<?php echo $row['foto'];?>" style="object-fit: cover; height:600px; width:100%; max-width:1600px;">
                 </div>
                 </div>
-            <? } ?> 
+            <?php } ?> 
             <?php $re = mysqli_query($conexion,"SELECT * FROM banners WHERE tipo ='principal' AND estado ='activo' LIMIT 100 OFFSET 1");
             while($row=mysqli_fetch_assoc($re)) { ?>
                 <div class="item">
@@ -29,7 +29,7 @@
                 <img src="baner/<?php echo $row['foto'];?>" loading="lazy" style="object-fit: cover; height:600px; width:100%; max-width:1600px;">
                 </div>
                 </div>
-            <? } ?> 
+            <?php } ?> 
             <!-- Slides-->
 
             <!-- Controles -->
@@ -62,7 +62,7 @@
                 <?php $rem = mysqli_query($conexion,"SELECT * FROM banners WHERE tipo ='principal-movil' AND estado ='activo'");
             while($rowm=mysqli_fetch_assoc($rem)) { ?>
             <div data-target="#myCarouselm" data-slide-to="1">  </div>
-            <? } ?> 
+            <?php } ?> 
         </div> 
 
         <!-- Indicators -->
@@ -74,13 +74,13 @@
                 <div class="item active">
                 <img src="baner/<?php echo $rowm['foto'];?>" style="object-fit: cover; height:600px; width:100%;">
                 </div>
-            <? } ?> 
+            <?php } ?> 
             <?php $rem = mysqli_query($conexion,"SELECT * FROM banners WHERE tipo ='principal-movil' AND estado ='activo' LIMIT 100 OFFSET 1");
             while($rowm=mysqli_fetch_assoc($rem)) { ?>
                 <div class="item">
                 <img src="baner/<?php echo $rowm['foto'];?>" loading="lazy" style="object-fit: cover; height:600px; width:100%;">
                 </div>
-            <? } ?> 
+            <?php } ?> 
             <!-- Slides-->
 
             <!-- Controles -->

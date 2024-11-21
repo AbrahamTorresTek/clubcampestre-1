@@ -17,7 +17,7 @@
     </div>
     </a>
   </div> 
-  <? } ?> 
+  <?php } ?> 
 
   <?php $re = mysqli_query($conexion,"SELECT * FROM secciones WHERE dos ='activo' AND dieciocho ='eng-hoyo-19' AND trece ='ingles' order by id ASC");
   while($row=mysqli_fetch_assoc($re)) { ?>
@@ -34,7 +34,7 @@
     </div>
     </a>
   </div> 
-  <? } ?> 
+  <?php } ?> 
 
 </div>   
 </div> 

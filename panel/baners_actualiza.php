@@ -63,7 +63,7 @@
                             echo "<br>";
                             ?>
                             
-                            <? } ?>
+                            <?php } ?>
 
                             <div class="col-xs-12 col-sm-12 text-center">
 <a href="baners_todos.php">

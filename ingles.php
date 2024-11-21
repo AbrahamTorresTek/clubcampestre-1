@@ -23,14 +23,14 @@ if ($numero <= 0 ) { ?>
             $re = mysqli_query($conexion,"SELECT * FROM pop WHERE tres ='inicio' ");
             while($row=mysqli_fetch_assoc($re)) { ?>
                 <img src="news/<?php echo $row['f1']; ?>" class="" style="object-fit:cover; width:100%; height:300px;  border-radius:2px;">
-            <? } ?>
+            <?php } ?>
             
         <button type="button" class="btn btn-block btn-secondary tipo-2" data-dismiss="modal">CLOSE</button>
 
     </div>
   </div>
 </div>
-<? } ?>
+<?php } ?>
 <!--- POP --->
 
 

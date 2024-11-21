@@ -252,7 +252,7 @@ NOVE --->
                     </table>
                     <!--- RESULTADOS ---->
 
-            <? } while ($row = mysqli_fetch_array($result));
+            <?php } while ($row = mysqli_fetch_array($result));
                 } else {
                   echo "No se encontraron resultados para: $buscar";
                 }
@@ -320,7 +320,7 @@ NOVE --->
                           while ($rowmed = mysqli_fetch_assoc($remed)) {
                           ?>
                             <spam class="colornegro tipo"> <?php echo $rowmed['diez']; ?> </spam><br>
-                          <? } ?>
+                          <?php } ?>
 
                           <p></p>
                         </td>
@@ -445,7 +445,7 @@ NOVE --->
 
                 </td>
               </tr>
-            <? } ?>
+            <?php } ?>
           </table>
           <!---CATALOGO ---->
 

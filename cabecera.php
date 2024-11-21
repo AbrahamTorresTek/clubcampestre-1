@@ -17,7 +17,7 @@ while($row=mysqli_fetch_assoc($re)) { ?>
   <link rel="stylesheet"  href="fonts/style.css"> 
   <title> <?php echo $row['nombre'];?> </title>
 
-<? } ?>
+<?php } ?>
 
   <?php $f_icono = mysqli_query($conexion,"SELECT * FROM imagenes WHERE tipo ='icono'"); 
   $foto_icono = mysqli_fetch_array($f_icono);?>

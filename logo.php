@@ -18,7 +18,7 @@ while($row=mysqli_fetch_assoc($re)) { ?>
             <a href="<?php echo $rowred['Link'];?>" target="_blank" class="">
                 <spam class="" style="font-size:14px;"><?php echo $rowred['Foto'];?><spam>
             </a> 
-        <? } ?>   
+        <?php } ?>   
         <spam class="tipo-2 " style="font-size:14px;">SIGUENOS</spam>
     </div>
 
@@ -34,7 +34,7 @@ while($row=mysqli_fetch_assoc($re)) { ?>
         </p>
     </div>
 
-<? } ?>   
+<?php } ?>   
 </div>
 </div>
 </div>

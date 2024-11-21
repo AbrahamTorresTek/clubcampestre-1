@@ -37,7 +37,7 @@ background-repeat: no-repeat; ">
                        <a href="eng-<?php echo $row['seis']; ?>" class="link">
                         <p class="tipo-2" style="padding:0px;"><?php echo $row['uno']; ?> </p>
                         </a>
-                  <? } ?>
+                  <?php } ?>
                   <p style="height:20px;"></p>
             </div>
             <div class=" col-xs-12  col-sm-2  text-center">
@@ -49,7 +49,7 @@ background-repeat: no-repeat; ">
                         <a href="eng-<?php echo $row['seis']; ?>" class="link">
                         <p class="tipo-2" style="padding:0px;"><?php echo $row['uno']; ?> </p>
                         </a>
-                  <? } ?>
+                  <?php } ?>
                   <p style="height:20px;"></p>
             </div>
             <div class=" col-xs-12  col-sm-2 text-center">
@@ -61,7 +61,7 @@ background-repeat: no-repeat; ">
                        <a href="eng-<?php echo $row['seis']; ?>" class="link">
                         <p class="tipo-2" style="padding:0px;"><?php echo $row['uno']; ?> </p>
                         </a>
-                  <? } ?>
+                  <?php } ?>
                   <p style="height:20px;"></p>
             </div>
             <div class=" col-xs-12  col-sm-2 text-center">
@@ -73,7 +73,7 @@ background-repeat: no-repeat; ">
                         <a href="eng-<?php echo $row['seis']; ?>" class="link">
                         <p class="tipo-2" style="padding:0px;"><?php echo $row['uno']; ?> </p>
                         </a>
-                  <? } ?>
+                  <?php } ?>
                   <p style="height:20px;"></p>
             </div>
             <div class=" col-xs-12  col-sm-2 text-center">
@@ -85,13 +85,13 @@ background-repeat: no-repeat; ">
                         <a href="eng-<?php echo $row['seis']; ?>" class="link">
                         <p class="tipo-2" style="padding:0px;"><?php echo $row['uno']; ?> </p>
                         </a>
-                        <? } ?>
+                        <?php } ?>
                         <?php $re = mysqli_query($conexion, "SELECT * FROM secciones WHERE cuatro ='menu_derecho' AND cinco='editable' AND dos ='activo' AND trece ='ingles' order by id");
                         while ($row = mysqli_fetch_assoc($re)) { ?>
                         <a href="eng-<?php echo $row['seis']; ?>" class="link">
                         <p class="tipo-2" style="padding:0px;"><?php echo $row['uno']; ?> </p>
                         </a>
-                        <? } ?>
+                        <?php } ?>
                         <a href="eng-contacto.php" class="link">
                         <p class="tipo-2" style="padding:0px;"> CONTACT </p>
                         </a>
@@ -135,7 +135,7 @@ while($row=mysqli_fetch_assoc($re)) { ?>
                   <a href="<?php echo $rowre['Link'];?>" target="_blank" class="">
                   &nbsp;<spam class="text-center"><?php echo $rowre['Foto'];?></spam>&nbsp;
                   </a>
-            <? } ?>
+            <?php } ?>
             </h2>
             
       </div>
@@ -160,7 +160,7 @@ while($row=mysqli_fetch_assoc($re)) { ?>
             </div>
       </div>
 
-<? } ?>
+<?php } ?>
 ABAJO ---------------------->
 
 <!---------------- FINAl ---------------->
@@ -175,7 +175,7 @@ ABAJO ---------------------->
             <p class="tipo-2 mostrar-movil mayusculas">
                   © LEON COUNTRY CLUB <span class="color-4"> | </span> ALL RIGHTS RESERVED
             </p>
-            <? } ?>
+            <?php } ?>
             </div>
 	</div> 
 </section>    

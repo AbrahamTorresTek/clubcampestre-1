@@ -47,7 +47,7 @@
                                     </div>
                               </form>
 
-                        <? } ?>
+                        <?php } ?>
                   <!-- AGREGAR -->                        
                   </div>
 
@@ -74,7 +74,7 @@
                               <p><br></p>
                         </div>
 
-                  <? } ?>
+                  <?php } ?>
                   </section>
                   <!----- CONTENIDO ---->
 

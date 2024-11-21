@@ -100,7 +100,7 @@
     </div>
 
 </td></tr>
-<? } ?>
+<?php } ?>
 </table>
 <!---usuarios ---->
  

@@ -143,7 +143,7 @@
                   <button type="submit" class="btn btn-warning btn-block" value="Enviar"> Actualizar contenido</button>
             </div> 
             
-            <? } ?>     
+            <?php } ?>     
       </form>    
       <!----- CONTENIDO ---->
       

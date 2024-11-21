@@ -39,8 +39,8 @@ if ($numero <= 0 ) { ?>
     </div>
     </div>
 
-    <? } ?> 
+    <?php } ?> 
 
 </div>  
 </div>
-<? } ?> 
+<?php } ?> 

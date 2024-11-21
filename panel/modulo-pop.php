@@ -90,7 +90,7 @@
         </form>   
         
     </div>
-    <? } ?>
+    <?php } ?>
 
     <!--- GALERIA Telefono ---->
     <?php $reamen = mysqli_query($conexion,"SELECT * FROM modulos WHERE seccion ='$clave' AND modulo ='pop'AND tipo='celular' ");
@@ -137,7 +137,7 @@
     </form>   
     
 </div>
-<? } ?>
+<?php } ?>
 
 
 

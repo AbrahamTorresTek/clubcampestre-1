@@ -166,7 +166,7 @@ echo "No se encontraron resultados para: $buscar";
                                 </a>
                               </th>
               </tr>      
-          <? } ?>      
+          <?php } ?>      
         </table> 
 
 

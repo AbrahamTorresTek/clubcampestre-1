@@ -33,4 +33,4 @@ background-repeat: repeat-x;
 </div>
 </div>
 </div>
-<? } ?> 
+<?php } ?> 

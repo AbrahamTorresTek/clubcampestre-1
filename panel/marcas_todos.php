@@ -155,7 +155,7 @@
                 </table>
               <!--- RESULTADOS ---->
 
-              <? } while ($row = mysql_fetch_array($result)); }
+              <?php } while ($row = mysql_fetch_array($result)); }
                 else { echo "No se encontraron resultados para: $buscar"; } } } ?>
         
       </div>
@@ -243,7 +243,7 @@ NO SE VE ---->
     </div>
 
 </td></tr>
-<? } ?>
+<?php } ?>
 </table>
 <!---marcas ---->
 
