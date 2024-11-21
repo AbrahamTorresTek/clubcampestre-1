@@ -81,7 +81,7 @@ alert("Contenido ingresado correctamente")
 window.location = "blog_todos.php";
 
 </script>
-<?
+<?php
 
 }
 
