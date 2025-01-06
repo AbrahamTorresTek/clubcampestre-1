@@ -1,7 +1,7 @@
 <nav id="sidebar">
  <!--- NOVE ---->   
    <div class="sidebar-header">
-      <a href="menu_alta_dise.php"><img src="https://www.nautilus360.com/imagenes/logo.png" width="100%"></a>
+      <a href="menu_alta_dise.php"><img src="https://rtasoftware.com.mx/929e89b203fdfc65e57d.png" width="100%"></a>
       <p><br></p>
       <h4 class="tipo">Usuario: <?PHP  echo '<span class="letra">'.$_SESSION['usuario_login'];'</span>'; ?> </h4>
    </div>

@@ -62,19 +62,13 @@
 </head>
 
 <body>
-
-
- <video id="video_background" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="https://nautilus360.com/video.mp4" type="video/mp4">
-</video>
-
   <div class="row">
     <div class="container">
 
       <div class="col-xs-12  col-sm-12  col-md-4 col-md-offset-4  text-center ">
       <div class="fondo_blanco">  
           <p><br></p>
-          <img src="https://www.nautilus360.com/imagenes/logo.png" width="60%">
+          <img src="https://rtasoftware.com.mx/c1e3116d90ffecf82e03.png" width="60%">
           <p></p>
           <h2 class="tipo" > Bienvenido  </h2>
           <p><br></p>

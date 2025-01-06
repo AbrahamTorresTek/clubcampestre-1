@@ -75,17 +75,15 @@
 <?php  include("footer.php"); ?>
 <!--- Footer --->
 
-<!--- NAUTILUS --->
 <section class="fondo-nau" id="abajo">
 	<div class="container">
     	<div class=" col-xs-12  col-sm-12  col-md-12  text-center "> 
-            <a href="https://nautilus360.com" target="_blank">
-            <img src="https://nautilus360.com/nautilus360.svg" width="60" />
+            <a href="https://rtasoftware.com.mx" target="_blank">
+            <img src="https://rtasoftware.com.mx/c1e3116d90ffecf82e03.png" width="60" />
           </a>
     	</div>
 	</div> 
 </section>    
-<!--- NAUTILUS --->
 
 </body>
 </html>
