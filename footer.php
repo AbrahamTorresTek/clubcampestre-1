@@ -189,18 +189,19 @@ ABAJO ---------------------->
                               <section class="fondo-nau" id="abajo" style="background-color:white;">
                                     <div class="container" style="width:auto">
                                           <div class=" col-xs-12  col-sm-12  col-md-12">
-                                                <pre style="color:#6d9418; text-align: left;">
-                                                      <?php echo $row['avisoprivacidad']; ?>
-                                                </pre>
-                                               
+                                                <pre style="color:#6d9418; text-align: left;    text-wrap: auto;
+    word-break: break-word;">
+                                                            <?php echo $row['avisoprivacidad']; ?>
+                                                      </pre>
+
                                           </div>
-                                       
+
                                     </div>
-                            
+
                               </section>
                               <br />
                         </div>
-                      
+
                         <p class="tipo-2 ocultar-movil mayusculas">
                               © <?php echo $row['nombre']; ?> <span class="color-4"> | </span> <?php echo $row['web']; ?>
                               <span class="color-4"> | </span> Todos los Derechos Reservados <span class="color-4">|</span> <a
