@@ -169,9 +169,7 @@
 
                                     <div class=" col-xs-12 col-sm-6 col-lg-6 col-md-6 text-left">
                                           <h4 class=" tipo">Aviso de privacidad</h4>
-                                          <textarea rows="6" type="text" name="avisoprivacidad" class="form-control">
-                                            <?php echo $row['avisoprivacidad']; ?>
-                                          </textarea>
+                                          <input type="file" id="avisoprivacidad" name="avisoprivacidad" accept="application/pdf" />
                                     </div>
 
                                     <div class=" col-xs-12 col-sm-12 text-left">

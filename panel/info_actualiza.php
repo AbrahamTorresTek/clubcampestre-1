@@ -39,13 +39,20 @@
 						$cinco = $_POST['mapa'];
                         $web = $_POST['web'];
                         $nombre = $_POST['nombre'];
-                        $avisoprivacidad = $_POST['avisoprivacidad'];
+                        
 						$siete= nl2br($_POST['direccion']);
                         $horario= nl2br($_POST['horario']);
 
+                        
+                        $nombrepdf = "PDF.pdf";
+						$archivo = $_FILES['avisoprivacidad']['tmp_name'];
+						$ruta = "../privacidad_pdf";
+						$ruta = $ruta."/".$nombrepdf;
+						move_uploaded_file($archivo,$ruta);
+
                         include("../conectarse.php");
 
-                        $insersion = mysqli_query($conexion , "update informacion set id = '$clave',  telefono = '$cero' , telefonos = '".nl2br($_POST["telefonos"])."'  , whatsapp = '$uno' , tipo = '$tipo' , whatsapps = '".nl2br($_POST["whatsapps"])."' , link_whatsapp = '$dos' , email = '$tres' , email2 = '$email2'  , correo2 = '$cuatro' , correos = '".nl2br($_POST["correos"])."' , mapa = '$cinco' , web = '$web' ,  nombre = '$nombre', avisoprivacidad = '$avisoprivacidad' , direccion = '".nl2br($_POST["direccion"])."' , horario = '".nl2br($_POST["horario"])."'  where id = '$clave'");
+                        $insersion = mysqli_query($conexion , "update informacion set id = '$clave',  telefono = '$cero' , telefonos = '".nl2br($_POST["telefonos"])."'  , whatsapp = '$uno' , tipo = '$tipo' , whatsapps = '".nl2br($_POST["whatsapps"])."' , link_whatsapp = '$dos' , email = '$tres' , email2 = '$email2'  , correo2 = '$cuatro' , correos = '".nl2br($_POST["correos"])."' , mapa = '$cinco' , web = '$web' ,  nombre = '$nombre', direccion = '".nl2br($_POST["direccion"])."' , horario = '".nl2br($_POST["horario"])."'  where id = '$clave'");
                         
                         if (!$insersion)
                         {

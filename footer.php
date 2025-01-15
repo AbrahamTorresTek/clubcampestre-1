@@ -189,10 +189,10 @@ ABAJO ---------------------->
                               <section class="fondo-nau" id="abajo" style="background-color:white;">
                                     <div class="container" style="width:auto">
                                           <div class=" col-xs-12  col-sm-12  col-md-12">
-                                                <pre style="color:#6d9418; text-align: left;    text-wrap: auto;
-    word-break: break-word;">
-                                                            <?php echo $row['avisoprivacidad']; ?>
-                                                      </pre>
+                                                <pre
+                                                      style="color:#6d9418; text-align: left;text-wrap: auto;word-break: break-word;">
+                                                                        <?php echo $row['avisoprivacidad']; ?>
+                                                                  </pre>
 
                                           </div>
 
@@ -205,8 +205,7 @@ ABAJO ---------------------->
                         <p class="tipo-2 ocultar-movil mayusculas">
                               © <?php echo $row['nombre']; ?> <span class="color-4"> | </span> <?php echo $row['web']; ?>
                               <span class="color-4"> | </span> Todos los Derechos Reservados <span class="color-4">|</span> <a
-                                    class="" style="padding:10px; color:white;cursor:pointer;" data-toggle="collapse"
-                                    data-target="#servicios" aria-expanded="false" aria-controls="servicios">Ver aviso de
+                                    href="/avisoprivacidad.php" class="color-4" aria-controls="servicios">Ver aviso de
                                     privacidad</a>
                         </p>
                         <p class="tipo-2 mostrar-movil mayusculas">
